@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Text, View } from 'react-native';
 
 
 
@@ -9,7 +9,6 @@ const Welcome = ({code,name}) => {
            <Text>
                Welcome to {code} - {name}
            </Text>
-
         </View>
 
     )
